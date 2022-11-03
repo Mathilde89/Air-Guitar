@@ -1,0 +1,429 @@
+$colorprinc: #B14949;
+$colortitre:#444444;
+$colorfond:#F2F2F2;
+$font: 'roboto';
+$fintsizeh1:35px;
+$fontsizeh3:20px;
+$bordureprinc:5px 50px;
+$colorwhite:white;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: $font;
+    margin: 0;
+}
+
+
+.boutique{
+    color: $colorprinc;
+    border:  2px solid $colorprinc;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $bordureprinc ;
+    background-color: $colorfond;
+    ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            :hover{
+                cursor:pointer; 
+            }
+            li{
+                border-left: 1.5em solid transparent;
+            }
+        }
+    }
+
+.bloc1{
+    background-image: url(../image/bakground.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+     color: $colorwhite;
+    font-size: $fintsizeh1;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 50px;
+    border-top: 10px solid $colorprinc;
+}
+
+.bloc1 .texte{
+    text-align: end;
+    width: 70%;
+}
+h1:nth-child(1){
+    text-align: start;
+}
+
+.contbarre{
+    display: flex;
+    flex-direction: row;
+}
+.barreblanche{
+    width: 40%;
+    border-right: 15px solid transparent;       
+}
+
+.barrerouge2{
+    background-color: $colorwhite;
+    height: 6%;
+}
+.barrerouge1{ 
+    
+    height: 47%;
+}
+.barrerouge3{
+    height: 47%;
+  
+}
+
+.bandeau{
+    background-color: $colorprinc;
+    color: $colorwhite;
+    padding: $bordureprinc;
+}
+
+.esprit{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.textesprit{
+    
+    width: 50%;   
+}
+.photoesprit{
+  
+    width: 50%;
+    padding-left: 50px;
+}
+.tofhaut{
+    display: flex;
+    flex-direction: row;
+     height: 60%;
+    border-bottom: 20px solid white;
+
+}
+.tofgauche{
+    background-image: url(/image/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 55%;
+   
+}
+.tofdroite{
+    background-image: url(/image/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    border-left: 20px solid white;
+}
+.tofbas{
+    background-image: url(/image/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 40%;
+}
+
+.tit1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tit11{
+    width: 50%; 
+}
+.barrerouge{
+    width: 50%;
+}
+
+.tit1 .barrerouge2{
+    background-color: $colorprinc;  
+}
+
+.container3 .bandeau{
+    text-align: right;
+}
+
+p{
+       text-align: justify;
+}
+
+.shop1{
+    display: flex;
+    flex-direction: row;
+}
+.shop11{
+    width: 25%;
+   
+}
+.shop112{
+    width: 50%;
+     display: flex;
+    flex-direction: row;
+}
+
+.shop1121{
+    width: 60%;
+    text-align: right;
+}
+
+.shop1 .barrerouge2{
+    background-color: $colorprinc;
+    margin-left: 10px;
+}
+.shop2 .shop112{
+    width: 100%;
+}
+
+.shop2{
+    display: flex;
+    flex-direction: row;
+}
+
+.shop3{ 
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 100px ;
+    border-bottom: 50px solid white;
+   }
+
+.grattes{
+    border: 10px solid white;
+    width: 25%;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+  }
+
+.grattof{
+     img{
+            height: 300px;
+            width: auto;
+    }
+}
+
+.grattit{
+    width: 100%;
+     height: 100px;
+}
+
+.gratprix{
+    width: 100%;
+}
+
+.gratbutton{
+    width: 100%;
+}
+
+.gratprix2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.textbarre{
+    h4{
+    text-decoration:line-through;
+}
+}
+
+.achat{
+    background-color: $colorprinc;
+    border: none;
+    padding: 10px 30px;
+    color: $colorwhite;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.container3{
+    height: 850px ;
+    border-bottom: 30px solid white;
+}
+
+.container4{
+    border-bottom: 50px solid white;
+    
+}
+
+.container4{
+
+    h3{
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+.form1{
+    width: 100%;
+    input{
+        width: 50%;
+    }
+}
+
+.form2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    input{
+        width: 100%;
+
+    }
+    
+}
+.form21{
+    width: 50%;   
+}
+.form22{
+    width: 50%;
+     border-left: 20px solid transparent;
+}
+.form3{
+    width: 100%;
+    input{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.container4{
+    .bloc4{
+ 
+    margin: 0px 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
+input{
+    border: 2px solid $colorprinc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+h5{
+    margin-block-end: 0.5em;
+     margin-left: 10px;
+    color: $colortitre;
+    font-family: $font;
+}
+
+.container4{
+    .achat{
+        margin-top: 10px;
+        size: 10px;
+
+    }
+}
+
+.form4{
+     text-align: center;
+}
+
+*:focus::placeholder { opacity: 0; }
+
+.achat:hover{
+    cursor: pointer;
+}
+
+
+// ::-webkit-input-placeholder { opacity: 1; transition: opacity .5s; } 
+
+@media screen and (max-width: 900px){
+    .esprit{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textesprit{
+    
+        width: 100%;   
+    }
+    .photoesprit{
+      
+        width: 100%;
+        height: 600px;
+        padding-left: 50px;
+    }
+    .bloc1 .texte{
+        text-align: end;
+        width: 100%;
+    }
+    .shop112{
+        width: 100%;
+        height: 100px;
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .barrerouge{
+        width: 50%;
+        height: 100px;
+    }
+
+    .shop1121{
+        text-align: center;
+    }
+    
+
+    .shop3{ 
+
+        flex-direction: column;
+        height: 20000px;
+        align-items: center;
+      
+        
+   
+    }
+
+    .grattes{
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .container3{
+    height: 2500px ;
+    }
+
+    .container4{
+        .bloc4{
+        
+        margin: 0px 5em;
+    }
+    }
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+}
+.photoesprit{
+      padding-left: 10px;
+}
+}
